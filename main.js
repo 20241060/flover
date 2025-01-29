@@ -9,7 +9,7 @@ window.onload = function(){
 function downloadFile(){
     const element = document.createElement('a');
 
-    element.href = 'data/송하영 인생네컷 2160.png'; // 다운로드할 파일의 경로
+    element.href = 'data/송하영 인생네컷.png'; // 다운로드할 파일의 경로
     element.download = '송하영 인생네컷.png'; // 다운로드될 파일의 이름
     
     document.body.appendChild(element); // DOM에 추가
